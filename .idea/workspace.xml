@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="703afc8c-13ab-4a7e-a656-d8f99f7e4dd4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +13,19 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_in_test_example_py.coverage" NAME="pytest in test_example.py Coverage Results" MODIFIED="1537549718975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_login_test_example.coverage" NAME="pytest for test_login.test_example Coverage Results" MODIFIED="1537551728272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_login_test_example.coverage" NAME="pytest for test_login.test_example Coverage Results" MODIFIED="1538327472769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_login_test_check_stickers.coverage" NAME="pytest for test_login.test_check_stickers Coverage Results" MODIFIED="1538329228270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_login_test_go_through_sidebar.coverage" NAME="pytest for test_login.test_go_through_sidebar Coverage Results" MODIFIED="1538329248667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1479811018">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,26 +40,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="363" />
+          <entry key="py" value="780" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="363" />
+          <entry key="Python" value="780" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -61,10 +64,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+            <state relative-caret-position="314">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+                <marker date="1538328890407" expanded="true" signature="887:1155" ph="..." />
               </folding>
             </state>
           </provider>
@@ -97,8 +101,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -140,7 +145,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_login.test_example">
+  <component name="RunManager" selected="Python tests.pytest for test_login.test_go_through_sidebar">
+    <configuration name="pytest for test_login.test_check_stickers" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-traning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_check_stickers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_login.test_example" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Selenium-traning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,6 +175,22 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_login.test_example&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_login.test_go_through_sidebar" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-traning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_go_through_sidebar&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -176,9 +213,13 @@
     <list>
       <item itemvalue="Python tests.pytest in test_example.py" />
       <item itemvalue="Python tests.pytest for test_login.test_example" />
+      <item itemvalue="Python tests.pytest for test_login.test_check_stickers" />
+      <item itemvalue="Python tests.pytest for test_login.test_go_through_sidebar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_login.test_go_through_sidebar" />
+        <item itemvalue="Python tests.pytest for test_login.test_check_stickers" />
         <item itemvalue="Python tests.pytest for test_login.test_example" />
         <item itemvalue="Python tests.pytest in test_example.py" />
       </list>
@@ -198,64 +239,64 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_example_py - 2018.09.21 at 19h 56m 36s.xml">
-      <configuration name="pytest in test_example.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_login_test_example - 2018.09.22 at 15h 59m 30s.xml">
+      <configuration name="pytest for test_login.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_example_py - 2018.09.21 at 19h 58m 48s.xml">
-      <configuration name="pytest in test_example.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_login_test_example - 2018.09.30 at 19h 47m 48s.xml">
+      <configuration name="pytest for test_login.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_example_py - 2018.09.21 at 20h 00m 19s.xml">
-      <configuration name="pytest in test_example.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_login_test_example - 2018.09.30 at 19h 48m 21s.xml">
+      <configuration name="pytest for test_login.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_example_py - 2018.09.21 at 20h 00m 31s.xml">
-      <configuration name="pytest in test_example.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_login_test_example - 2018.09.30 at 19h 49m 58s.xml">
+      <configuration name="pytest for test_login.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_example_py - 2018.09.21 at 20h 01m 27s.xml">
-      <configuration name="pytest in test_example.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_login_test_example - 2018.09.30 at 19h 53m 17s.xml">
+      <configuration name="pytest for test_login.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_example_py - 2018.09.21 at 20h 04m 21s.xml">
-      <configuration name="pytest in test_example.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_login_test_example - 2018.09.30 at 19h 55m 15s.xml">
+      <configuration name="pytest for test_login.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_example_py - 2018.09.21 at 20h 04m 43s.xml">
-      <configuration name="pytest in test_example.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_login_test_example - 2018.09.30 at 20h 01m 20s.xml">
+      <configuration name="pytest for test_login.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_example_py - 2018.09.21 at 20h 06m 57s.xml">
-      <configuration name="pytest in test_example.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_login_test_example - 2018.09.30 at 20h 11m 38s.xml">
+      <configuration name="pytest for test_login.test_example" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_example_py - 2018.09.21 at 20h 07m 27s.xml">
-      <configuration name="pytest in test_example.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_login_test_check_stickers - 2018.09.30 at 20h 34m 17s.xml">
+      <configuration name="pytest for test_login.test_check_stickers" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_example_py - 2018.09.21 at 20h 08m 47s.xml">
-      <configuration name="pytest in test_example.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_login_test_check_stickers - 2018.09.30 at 20h 34m 55s.xml">
+      <configuration name="pytest for test_login.test_check_stickers" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36626506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,16 +311,7 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Selenium-traning/test_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Selenium-traning/test_example.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.4/site-packages/_pytest/python.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -289,20 +321,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        <state relative-caret-position="314">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+            <marker date="1538328890407" expanded="true" signature="887:1155" ph="..." />
           </folding>
         </state>
       </provider>
