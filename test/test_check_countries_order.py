@@ -1,5 +1,5 @@
 
-def test_check_countries_order(app):
+def test_check_countries_order_countries(app):
     wd = app.wd
     app.session.login_to_admin()
     wd.get("http://localhost/litecart/admin/?app=countries&doc=countries")
@@ -16,4 +16,9 @@ def test_check_countries_order(app):
             wd.get("http://localhost/litecart/admin/?app=countries&doc=countries")
 
 
-
+def test_check_countries_order_geo_zones(app):
+    wd = app.wd
+    app.session.login_to_admin()
+    wd.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones")
+    zones_list = app.admin.get_geo_zones_list()
+    assert zones_list == sorted(zones_list)
