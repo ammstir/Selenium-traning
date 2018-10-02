@@ -1,6 +1,7 @@
 from selenium import webdriver
 from fixture.session import SessionHelper
 from fixture.admin import Admin
+from fixture.duck import DuckHelper
 
 
 class Application:
@@ -14,6 +15,7 @@ class Application:
         else:
             raise ValueError("Unrecognized browser %s" % browser)
         self.session = SessionHelper(self)
+        self.duck = DuckHelper(self)
         self.admin = Admin(self)
 
     def is_valid(self):

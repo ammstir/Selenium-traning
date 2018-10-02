@@ -1,7 +1,6 @@
 
 def test_go_through_sidebar(app):
     wd = app.wd
-    # wd.implicitly_wait(5)
     app.session.login_to_admin()
     menu = wd.find_elements_by_css_selector("ul#box-apps-menu li#app-")
     count = len(list(menu))
