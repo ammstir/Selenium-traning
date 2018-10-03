@@ -10,12 +10,8 @@ def test_check_countries_order_countries(app):
         row = wd.find_element_by_css_selector("table.dataTable tbody tr.row:nth-child(%d)" % (i+2))
         zones = row.find_element_by_css_selector("td:nth-child(6)").text
         if int(zones) > 0:
-            subcountry_list = []
             row.find_element_by_css_selector("a[href*=country_code]:not([title=Edit])").click()
-            subcountry_list_rows = wd.find_elements_by_css_selector("table#table-zones tr:not([class=header])")
-            for sub_row in subcountry_list_rows:
-                subcountry_list.append(sub_row.find_element_by_css_selector("input[name$=\\]\\[name\\]]").text)
-            print(subcountry_list)
+            subcountry_list = app.admin.get_subcountry_list()
             assert subcountry_list == sorted(subcountry_list)
             wd.get("http://localhost/litecart/admin/?app=countries&doc=countries")
 

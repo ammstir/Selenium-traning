@@ -11,17 +11,11 @@ class DuckHelper:
         duck_price = duck.find_element_by_css_selector("div.price-wrapper s.regular-price")
         duck_reduced_price = duck.find_element_by_css_selector("div.price-wrapper strong.campaign-price")
         duck_price_color = self.get_color(duck_price.value_of_css_property("color"))
-        print("duck_price_color ", duck_price_color)
         duck_reduced_price_color = self.get_color(duck_reduced_price.value_of_css_property("color"))
-        print("duck_reduced_price_color ", duck_reduced_price_color)
         duck_price_text_size = float(duck_price.value_of_css_property("font-size")[:-2])
-        print("duck_price_text_size ", duck_price_text_size)
         duck_reduced_price_text_size = float(duck_reduced_price.value_of_css_property("font-size")[:-2])
-        print("duck_reduced_price_text_size ", duck_reduced_price_text_size)
         duck_price_text_decoration = (duck_price.value_of_css_property("text-decoration").split(" "))[0]
-        print("duck_price_text_decoration", duck_price_text_decoration)
         duck_reduced_price_font_weight = duck_reduced_price.value_of_css_property("font-weight")
-        print("duck_reduced_price_font_weight ", duck_reduced_price_font_weight)
         duck_price = duck_price.text
         duck_reduced_price = duck_reduced_price.text
         return DuckItem(title=duck_title, price=duck_price, reduced_price=duck_reduced_price,
