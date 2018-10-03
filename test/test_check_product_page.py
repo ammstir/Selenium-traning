@@ -11,6 +11,7 @@ def test_check_product_page(app):
     assert duck_from_mainpage.reduced_price_font_weight == "bold" or int(duck_from_mainpage.reduced_price_font_weight) >= 700
     assert duck_from_mainpage.price_text_size < duck_from_mainpage.reduced_price_text_size
     duck_mainpage.click()
+    wd.implicitly_wait(5)
     duck_page = wd.find_element_by_css_selector("div#box-product")
     duck_from_page = app.duck.get_page_duck_properties(duck_page)
     assert duck_from_page.price_text_decoration == "line-through"
