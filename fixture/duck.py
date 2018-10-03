@@ -14,7 +14,7 @@ class DuckHelper:
         duck_reduced_price_color = duck_reduced_price.value_of_css_property("color")[5:-1].split(", ")
         duck_price_text_size = float(duck_price.value_of_css_property("font-size")[:-2])
         duck_reduced_price_text_size = float(duck_reduced_price.value_of_css_property("font-size")[:-2])
-        duck_price_text_decoration = duck_price.value_of_css_property("text-decoration")
+        duck_price_text_decoration = (duck_price.value_of_css_property("text-decoration").split(" "))[0]
         duck_reduced_price_font_weight = duck_reduced_price.value_of_css_property("font-weight")
         duck_price = duck_price.text
         duck_reduced_price = duck_reduced_price.text
@@ -32,7 +32,7 @@ class DuckHelper:
         duck_reduced_price_color = duck_reduced_price.value_of_css_property("color")[5:-1].split(", ")
         duck_price_text_size = float(duck_price.value_of_css_property("font-size")[:-2])
         duck_reduced_price_text_size = float(duck_reduced_price.value_of_css_property("font-size")[:-2])
-        duck_price_text_decoration = duck_price.value_of_css_property("text-decoration")
+        duck_price_text_decoration = (duck_price.value_of_css_property("text-decoration").split(" "))[0]
         duck_reduced_price_font_weight = duck_reduced_price.value_of_css_property("font-weight")
         duck_price = duck_price.text
         duck_reduced_price = duck_reduced_price.text
