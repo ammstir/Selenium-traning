@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="703afc8c-13ab-4a7e-a656-d8f99f7e4dd4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fixture/duck.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/duck.py" afterDir="false" />
-    </list>
+    <list default="true" id="703afc8c-13ab-4a7e-a656-d8f99f7e4dd4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +34,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="40" />
+          <entry key="py" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="40" />
+          <entry key="Python" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="34" />
-          <entry key="py" value="4441" />
+          <entry key="py" value="4446" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="34" />
-          <entry key="Python" value="4441" />
+          <entry key="Python" value="4446" />
         </counts>
       </usages-collector>
     </session>
@@ -76,23 +74,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_check_product_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <marker date="1538554197599" expanded="true" signature="34:35" ph="..." />
+                <marker date="1538556034269" expanded="true" signature="34:35" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_check_stikers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/duck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-226">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="840">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
-                <marker date="1538555828983" expanded="true" signature="56:57" ph="..." />
-                <marker date="1538555828983" expanded="true" signature="56:62" ph="..." />
+                <marker date="1538555865073" expanded="true" signature="56:57" ph="..." />
+                <marker date="1538555865073" expanded="true" signature="56:62" ph="..." />
               </folding>
             </state>
           </provider>
@@ -124,9 +131,9 @@
         <option value="$PROJECT_DIR$/model/duck_item.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/test/test_check_countries_order.py" />
-        <option value="$PROJECT_DIR$/test/test_check_product_page.py" />
         <option value="$PROJECT_DIR$/test/test_check_stikers.py" />
         <option value="$PROJECT_DIR$/fixture/duck.py" />
+        <option value="$PROJECT_DIR$/test/test_check_product_page.py" />
       </list>
     </option>
   </component>
@@ -312,18 +319,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.03 at 11h 19m 01s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.03 at 11h 19m 23s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.03 at 11h 19m 49s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.03 at 11h 22m 21s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.03 at 11h 23m 07s.xml">
       <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
     </history-entry>
@@ -342,17 +337,29 @@
     <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.03 at 11h 31m 35s.xml">
       <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.03 at 11h 37m 15s.xml">
+      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.03 at 11h 37m 51s.xml">
+      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.03 at 11h 38m 03s.xml">
+      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.03 at 11h 40m 41s.xml">
+      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36626506" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36626506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -434,13 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_check_stikers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="76" lean-forward="true" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -472,24 +472,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_check_product_page.py">
+    <entry file="file://$PROJECT_DIR$/fixture/duck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="840">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
           <folding>
-            <marker date="1538554197599" expanded="true" signature="34:35" ph="..." />
+            <marker date="1538555865073" expanded="true" signature="56:57" ph="..." />
+            <marker date="1538555865073" expanded="true" signature="56:62" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/duck.py">
+    <entry file="file://$PROJECT_DIR$/test/test_check_product_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <marker date="1538555828983" expanded="true" signature="56:57" ph="..." />
-            <marker date="1538555828983" expanded="true" signature="56:62" ph="..." />
+            <marker date="1538556034269" expanded="true" signature="34:35" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_check_stikers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
