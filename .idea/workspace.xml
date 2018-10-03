@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703afc8c-13ab-4a7e-a656-d8f99f7e4dd4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_check_countries_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_check_countries_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_check_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_check_product_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_check_stikers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_check_stikers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_login_test_check_countries_order.coverage" NAME="pytest for test_login.test_check_countries_order Coverage Results" MODIFIED="1538333467763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_check_stikers_test_check_stickers.coverage" NAME="pytest for test_check_stikers.test_check_stickers Coverage Results" MODIFIED="1538495702965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_check_stikers_test_check_stickers.coverage" NAME="pytest for test_check_stikers.test_check_stickers Coverage Results" MODIFIED="1538554227671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_in_test_example_py.coverage" NAME="pytest in test_example.py Coverage Results" MODIFIED="1537549718975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_login_test_example.coverage" NAME="pytest for test_login.test_example Coverage Results" MODIFIED="1538327472769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_go_trough_sidebar_test_go_through_sidebar.coverage" NAME="pytest for test_go_trough_sidebar.test_go_through_sidebar Coverage Results" MODIFIED="1538426444902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -20,6 +22,7 @@
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_check_countries_order_test_check_countries_order.coverage" NAME="pytest for test_check_countries_order.test_check_countries_order Coverage Results" MODIFIED="1538425350995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_login_test_check_stickers.coverage" NAME="pytest for test_login.test_check_stickers Coverage Results" MODIFIED="1538329228270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_check_product_page_test_check_product_page.coverage" NAME="pytest for test_check_product_page.test_check_product_page Coverage Results" MODIFIED="1538477553416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_check_countries_order_test_check_countries_order_countries.coverage" NAME="pytest for test_check_countries_order.test_check_countries_order_countries Coverage Results" MODIFIED="1538497227596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_login_test_go_through_sidebar.coverage" NAME="pytest for test_login.test_go_through_sidebar Coverage Results" MODIFIED="1538329248667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -35,75 +38,59 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="30" />
+          <entry key="py" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="30" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="34" />
-          <entry key="py" value="4078" />
+          <entry key="py" value="4248" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="34" />
-          <entry key="Python" value="4078" />
+          <entry key="Python" value="4248" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <marker date="1538425771351" expanded="true" signature="14:15" ph="..." />
+                <marker date="1538425771351" expanded="true" signature="14:20" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fixture/application.py">
+        <entry file="file://$PROJECT_DIR$/test/test_check_stikers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-                <marker date="1538473791404" expanded="true" signature="805:814" ph="..." />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conftest.py">
+        <entry file="file://$PROJECT_DIR$/test/test_check_product_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="60">
+              <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/duck.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-              <folding>
-                <marker date="1538477387351" expanded="true" signature="56:57" ph="..." />
-                <marker date="1538477387351" expanded="true" signature="56:62" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/duck_item.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <marker date="1538476403694" expanded="true" signature="16:17" ph="..." />
+                <marker date="1538554197599" expanded="true" signature="34:35" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,17 +114,17 @@
         <option value="$PROJECT_DIR$/test_example.py" />
         <option value="$PROJECT_DIR$/fixture/app.py" />
         <option value="$PROJECT_DIR$/test_login.py" />
-        <option value="$PROJECT_DIR$/test/test_check_stikers.py" />
         <option value="$PROJECT_DIR$/fixture/admin.py" />
-        <option value="$PROJECT_DIR$/test/test_check_countries_order.py" />
         <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/test/test_go_trough_sidebar.py" />
         <option value="$PROJECT_DIR$/model/product.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/model/duck_item.py" />
         <option value="$PROJECT_DIR$/fixture/duck.py" />
-        <option value="$PROJECT_DIR$/test/test_check_product_page.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/test/test_check_countries_order.py" />
+        <option value="$PROJECT_DIR$/test/test_check_product_page.py" />
+        <option value="$PROJECT_DIR$/test/test_check_stikers.py" />
       </list>
     </option>
   </component>
@@ -212,7 +199,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_check_stikers.test_check_stickers">
-    <configuration name="pytest for test_check_countries_order.test_check_countries_order" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_check_countries_order.test_check_countries_order_countries" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Selenium-traning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,7 +211,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_check_countries_order.test_check_countries_order&quot;" />
+      <option name="_new_target" value="&quot;test_check_countries_order.test_check_countries_order_countries&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -294,18 +281,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest for test_check_stikers.test_check_stickers" />
-      <item itemvalue="Python tests.pytest for test_check_countries_order.test_check_countries_order" />
       <item itemvalue="Python tests.pytest for test_go_trough_sidebar.test_go_through_sidebar" />
       <item itemvalue="Python tests.pytest for test_check_countries_order.test_check_countries_order_geozones" />
       <item itemvalue="Python tests.pytest for test_check_product_page.test_check_product_page" />
+      <item itemvalue="Python tests.pytest for test_check_countries_order.test_check_countries_order_countries" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_check_stikers.test_check_stickers" />
+        <item itemvalue="Python tests.pytest for test_check_countries_order.test_check_countries_order_countries" />
         <item itemvalue="Python tests.pytest for test_check_product_page.test_check_product_page" />
         <item itemvalue="Python tests.pytest for test_go_trough_sidebar.test_go_through_sidebar" />
         <item itemvalue="Python tests.pytest for test_check_countries_order.test_check_countries_order_geozones" />
-        <item itemvalue="Python tests.pytest for test_check_countries_order.test_check_countries_order" />
       </list>
     </recent_temporary>
   </component>
@@ -323,35 +310,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.02 at 13h 21m 12s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_check_stikers_test_check_stickers - 2018.10.02 at 18h 55m 11s.xml">
+      <configuration name="pytest for test_check_stikers.test_check_stickers" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.02 at 13h 37m 13s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_check_countries_order_test_check_countries_order_countries - 2018.10.02 at 19h 00m 46s.xml">
+      <configuration name="pytest for test_check_countries_order.test_check_countries_order_countries" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.02 at 13h 38m 12s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_check_countries_order_test_check_countries_order_countries - 2018.10.02 at 19h 07m 13s.xml">
+      <configuration name="pytest for test_check_countries_order.test_check_countries_order_countries" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.02 at 13h 39m 52s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_check_countries_order_test_check_countries_order_countries - 2018.10.02 at 19h 07m 48s.xml">
+      <configuration name="pytest for test_check_countries_order.test_check_countries_order_countries" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.02 at 13h 46m 38s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_check_countries_order_test_check_countries_order_countries - 2018.10.02 at 19h 09m 11s.xml">
+      <configuration name="pytest for test_check_countries_order.test_check_countries_order_countries" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.02 at 13h 47m 07s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_check_countries_order_test_check_countries_order_countries - 2018.10.02 at 19h 11m 04s.xml">
+      <configuration name="pytest for test_check_countries_order.test_check_countries_order_countries" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.02 at 13h 49m 13s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_check_countries_order_test_check_countries_order_countries - 2018.10.02 at 19h 16m 19s.xml">
+      <configuration name="pytest for test_check_countries_order.test_check_countries_order_countries" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.02 at 13h 49m 53s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_check_countries_order_test_check_countries_order_countries - 2018.10.02 at 19h 17m 23s.xml">
+      <configuration name="pytest for test_check_countries_order.test_check_countries_order_countries" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.02 at 13h 51m 59s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_check_countries_order_test_check_countries_order_countries - 2018.10.02 at 19h 20m 14s.xml">
+      <configuration name="pytest for test_check_countries_order.test_check_countries_order_countries" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_check_product_page_test_check_product_page - 2018.10.02 at 13h 52m 40s.xml">
-      <configuration name="pytest for test_check_product_page.test_check_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_check_countries_order_test_check_countries_order_countries - 2018.10.02 at 19h 20m 45s.xml">
+      <configuration name="pytest for test_check_countries_order.test_check_countries_order_countries" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -410,24 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_go_trough_sidebar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <marker date="1538425771351" expanded="true" signature="14:15" ph="..." />
-            <marker date="1538425771351" expanded="true" signature="14:20" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -435,29 +404,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_check_stikers.py">
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_check_countries_order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <marker date="1538425791531" expanded="true" signature="933:934" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/duck_item.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <marker date="1538476403694" expanded="true" signature="16:17" ph="..." />
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1538473791404" expanded="true" signature="805:814" ph="..." />
           </folding>
         </state>
       </provider>
@@ -473,6 +426,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/duck_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <marker date="1538476403694" expanded="true" signature="16:17" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -483,24 +446,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_check_product_page.py">
+    <entry file="file://$PROJECT_DIR$/test/test_check_countries_order.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="105">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
           <folding>
-            <marker date="1538477425878" expanded="true" signature="34:35" ph="..." />
+            <marker date="1538496960737" expanded="true" signature="1213:1214" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+    <entry file="file://$PROJECT_DIR$/test/test_check_product_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="60">
+          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <marker date="1538473791404" expanded="true" signature="805:814" ph="..." />
+            <marker date="1538554197599" expanded="true" signature="34:35" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_go_trough_sidebar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1538425771351" expanded="true" signature="14:15" ph="..." />
+            <marker date="1538425771351" expanded="true" signature="14:20" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_check_stikers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
