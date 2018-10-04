@@ -28,3 +28,7 @@ class Admin:
         for row in rows:
             zones_list.append(row.find_element_by_css_selector("td:nth-child(4)").text)
         return zones_list
+
+    def check_checkbox(self, checkbox):
+        if not (checkbox.is_selected()):
+            checkbox.click()

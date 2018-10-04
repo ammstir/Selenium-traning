@@ -2,6 +2,7 @@ from selenium import webdriver
 from fixture.session import SessionHelper
 from fixture.admin import Admin
 from fixture.duck import DuckHelper
+from fixture.generators import Generators
 
 
 class Application:
@@ -17,6 +18,7 @@ class Application:
         self.session = SessionHelper(self)
         self.duck = DuckHelper(self)
         self.admin = Admin(self)
+        self.generate = Generators(self)
 
     def is_valid(self):
         try:

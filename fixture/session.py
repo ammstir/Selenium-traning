@@ -24,3 +24,11 @@ class SessionHelper:
             return True
         except NoSuchElementException:
             return False
+
+    def check_exists_by_link_text(self, text):
+        wd = self.app.wd
+        try:
+            wd.find_element_by_link_text(text)
+            return True
+        except NoSuchElementException:
+            return False
