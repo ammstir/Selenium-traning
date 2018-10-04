@@ -20,5 +20,9 @@ def test_check_countries_order_geo_zones(app):
     wd = app.wd
     app.session.login_to_admin()
     wd.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones")
-    zones_list = app.admin.get_geo_zones_list()
-    assert zones_list == sorted(zones_list)
+    rows = wd.find_elements_by_css_selector("form[name=geo_zones_form] tr.row")
+    for i in range(len(rows)):
+        wd.find_element_by_css_selector("tbody tr.row:nth-child(%d) a[href*=edit_geo_zone]" % (i+2)).click()
+        zones_list = app.admin.get_geo_zones_list()
+        assert zones_list == sorted(zones_list)
+        wd.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones")

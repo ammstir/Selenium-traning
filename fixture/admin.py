@@ -14,6 +14,7 @@ class Admin:
         return country_list
 
     def get_subcountry_list(self):
+        wd = self.app.wd
         subcountry_list = []
         subcountry_list_rows = wd.find_elements_by_css_selector("table#table-zones tr:not([class=header])")[:-1]
         for sub_row in subcountry_list_rows:
@@ -24,9 +25,9 @@ class Admin:
     def get_geo_zones_list(self):
         wd = self.app.wd
         zones_list = []
-        rows = wd.find_elements_by_css_selector("table.dataTable tr.row")
-        for row in rows:
-            zones_list.append(row.find_element_by_css_selector("td:nth-child(4)").text)
+        zones_rows = wd.find_elements_by_css_selector("#table-zones tr:not([class=header])")[:-1]
+        for zones_row in zones_rows:
+            zones_list.append(zones_row.find_element_by_css_selector("select[name*=zone_code] option[selected=selected]").text)
         return zones_list
 
     def check_checkbox(self, checkbox):
