@@ -8,7 +8,7 @@ from fixture.generators import Generators
 class Application:
     def __init__(self, browser):
         if browser == "firefox":
-            self.wd = webdriver.Firefox(capabilities={"marionette": False})
+            self.wd = webdriver.Firefox()
         elif browser == "chrome":
             self.wd = webdriver.Chrome()
         elif browser == "safari":
