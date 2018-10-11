@@ -33,3 +33,8 @@ class Admin:
     def check_checkbox(self, checkbox):
         if not (checkbox.is_selected()):
             checkbox.click()
+
+    def open_countries(self):
+        wd = self.app.wd
+        self.app.session.login_to_admin()
+        wd.find_element_by_css_selector("a[href$='doc=countries']").click()
