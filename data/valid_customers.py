@@ -1,7 +1,7 @@
 from model.customer import Customer
-from conftest import app
+from generators import generators
 
-valid_customers = [Customer(firstname=app.generate.name(), lastname=app.generate.name(), address=app.generate.address(),
-                        postcode=app.generate.postcode(), city=app.generate.name(), country="united states",
-                        zone='AL', email=app.generate.email(), password=app.generate.password())]
+valid_customers = [Customer(firstname=generators.name(), lastname=generators.name(), address=generators.address(),
+                        postcode=generators.postcode(), city=generators.name(), country="united states",
+                        zone='AL', email=generators.email(), password=generators.password(), phone=generators.phone())]
 
