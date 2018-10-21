@@ -1,11 +1,15 @@
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
+from pages.litecart_homepage import LiteCartHomePage
+from pages.litecart_bin import LiteCartBin
 
 
 class LiteCartHelper:
 
     def __init__(self, app):
         self.app = app
+        self.homepage = LiteCartHomePage(self.app)
+        self.bin = LiteCartBin(self.app)
 
     def customer_login(self, customer):
         wd = self.app.wd
@@ -42,3 +46,19 @@ class LiteCartHelper:
         wd.find_element_by_css_selector("span.selection").click()
         wd.find_element_by_css_selector("input.select2-search__field").click()
         wd.find_element_by_css_selector("input.select2-search__field").send_keys(customer.country + Keys.ENTER)
+
+    def add_duck_to_bin(self, i):
+        self.app.session.open_litecart_homepage()
+        quantity = self.homepage.check_duck_quantity()
+        self.homepage.choose_duck_on_homepage(i)
+        self.homepage.click_add_to_bin()
+        self.homepage.wait_counter_increase(quantity)
+
+    def open_bin(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("Checkout »").click()
+
+    def remove_duck_from_bin(self):
+        rows_count = self.bin.items_rows_count()
+        self.bin.remove_item()
+        self.bin.wait_row_count_decrease(rows_count)

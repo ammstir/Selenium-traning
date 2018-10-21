@@ -1,7 +1,7 @@
 
 def test_check_product_page(app):
     wd = app.wd
-    app.session.open_litecart()
+    app.session.open_litecart_homepage()
     duck_mainpage = wd.find_element_by_css_selector("div#box-campaigns li.product a.link[title$=Duck]")
     duck_from_mainpage = app.duck.get_mainpage_duck_properties(duck_mainpage)
     assert duck_from_mainpage.price_text_decoration == "line-through"

@@ -13,7 +13,7 @@ class SessionHelper:
         wd.find_element_by_name("password").send_keys("admin")
         wd.find_element_by_name("login").click()
 
-    def open_litecart(self):
+    def open_litecart_homepage(self):
         wd = self.app.wd
         wd.get("http://localhost/litecart/en/")
 

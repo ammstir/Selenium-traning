@@ -1,7 +1,7 @@
 
 def test_check_stickers(app):
     wd = app.wd
-    app.session.open_litecart()
+    app.session.open_litecart_homepage()
     ducks = wd.find_elements_by_css_selector("li.product")
     for duck in ducks:
         stickers = duck.find_elements_by_css_selector("div.sticker")
