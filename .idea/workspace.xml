@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703afc8c-13ab-4a7e-a656-d8f99f7e4dd4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/litecart.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/litecart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_bin.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_bin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_check_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_check_product_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_check_stikers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_check_stikers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_user_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_user_registration.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_login_test_check_countries_order.coverage" NAME="pytest for test_login.test_check_countries_order Coverage Results" MODIFIED="1538333467763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_check_stikers_test_check_stickers.coverage" NAME="pytest for test_check_stikers.test_check_stickers Coverage Results" MODIFIED="1539179054851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_check_stikers_test_check_stickers.coverage" NAME="pytest for test_check_stikers.test_check_stickers Coverage Results" MODIFIED="1540378611138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_bin_test_bin.coverage" NAME="pytest for test_bin.test_bin Coverage Results" MODIFIED="1540128325838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_check_countries_order_test_check_countries_order.coverage" NAME="pytest for test_check_countries_order.test_check_countries_order Coverage Results" MODIFIED="1538425350995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Selenium_traning$pytest_for_test_check_countries_order_test_check_countries_order_geo_zones.coverage" NAME="pytest for test_check_countries_order.test_check_countries_order_geo_zones Coverage Results" MODIFIED="1538658477695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -41,46 +36,48 @@
     <session id="1479811018">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="156" />
+          <entry key="py" value="157" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="156" />
+          <entry key="Python" value="157" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="34" />
-          <entry key="py" value="8859" />
+          <entry key="py" value="8869" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="34" />
-          <entry key="Python" value="8859" />
+          <entry key="Python" value="8869" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_bin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <marker date="1540127436253" expanded="true" signature="20:21" ph="..." />
               </folding>
@@ -118,12 +115,21 @@
         <entry file="file://$PROJECT_DIR$/pages/litecart_homepage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
                 <marker date="1540128242758" expanded="true" signature="192:193" ph="..." />
                 <marker date="1540128242758" expanded="true" signature="192:198" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_check_stikers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -150,7 +156,6 @@
         <option value="$PROJECT_DIR$/model/product.py" />
         <option value="$PROJECT_DIR$/model/duck_item.py" />
         <option value="$PROJECT_DIR$/test/test_check_product_page.py" />
-        <option value="$PROJECT_DIR$/test/test_check_stikers.py" />
         <option value="$PROJECT_DIR$/fixture/duck.py" />
         <option value="$PROJECT_DIR$/fixture/generators.py" />
         <option value="$PROJECT_DIR$/test/test_add_item_for_sale.py" />
@@ -169,6 +174,7 @@
         <option value="$PROJECT_DIR$/pages/litecart_bin.py" />
         <option value="$PROJECT_DIR$/pages/litecart_homepage.py" />
         <option value="$PROJECT_DIR$/fixture/litecart.py" />
+        <option value="$PROJECT_DIR$/test/test_check_stikers.py" />
       </list>
     </option>
   </component>
@@ -196,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,33 +213,12 @@
             <path>
               <item name="Selenium-traning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Selenium-traning" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium-traning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium-traning" type="462c0819:PsiDirectoryNode" />
-              <item name="fixture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium-traning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium-traning" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium-traning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium-traning" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium-traning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium-traning" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_bin.test_bin">
+  <component name="RunManager" selected="Python tests.pytest for test_check_stikers.test_check_stickers">
     <configuration name="pytest for test_bin.test_bin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Selenium-traning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -336,10 +322,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_check_stikers.test_check_stickers" />
         <item itemvalue="Python tests.pytest for test_bin.test_bin" />
         <item itemvalue="Python tests.pytest in test_user_registration.py" />
         <item itemvalue="Python tests.pytest for test_check_new_windows_opening.test_check_new_windows_opening" />
-        <item itemvalue="Python tests.pytest for test_check_stikers.test_check_stickers" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +378,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25965664" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26680973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -500,13 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_check_stikers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_check_countries_order.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -518,10 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1539264601596" expanded="true" signature="179:184" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,9 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,9 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,10 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding>
-            <marker date="1538562090099" expanded="true" signature="56:57" ph="..." />
-            <marker date="1538562090099" expanded="true" signature="56:62" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,10 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <marker date="1539262554925" expanded="true" signature="14:15" ph="..." />
-            <marker date="1539262554925" expanded="true" signature="14:20" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,10 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1540125411628" expanded="true" signature="201:202" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -596,9 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,10 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <marker date="1540122433743" expanded="true" signature="861:870" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,25 +570,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/litecart_homepage.py">
+    <entry file="file://$PROJECT_DIR$/test/test_bin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
-            <marker date="1540128242758" expanded="true" signature="192:193" ph="..." />
-            <marker date="1540128242758" expanded="true" signature="192:198" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/litecart_bin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <marker date="1540127932540" expanded="true" signature="78:79" ph="..." />
-            <marker date="1540127932540" expanded="true" signature="78:80" ph="..." />
+            <marker date="1540127436253" expanded="true" signature="20:21" ph="..." />
           </folding>
         </state>
       </provider>
@@ -654,13 +591,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_bin.py">
+    <entry file="file://$PROJECT_DIR$/pages/litecart_bin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
-            <marker date="1540127436253" expanded="true" signature="20:21" ph="..." />
+            <marker date="1540127932540" expanded="true" signature="78:79" ph="..." />
+            <marker date="1540127932540" expanded="true" signature="78:80" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/litecart_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+            <marker date="1540128242758" expanded="true" signature="192:193" ph="..." />
+            <marker date="1540128242758" expanded="true" signature="192:198" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_check_stikers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
